@@ -278,7 +278,6 @@ button{
   margin-top: 5px;
   border-radius: 10px;
   padding-bottom: 105px;
-  
 }
 
 .h32{
@@ -302,16 +301,16 @@ button{
   width: 290px;
   height: 290px;
   margin-top: 15px;
-  background: url(images/img1.jpg);
+  background: url(images/iimg1.jpg);
   transform: scale(0.9);
 }
 
 .r2{
-  background: url(images/img1.jpg);
+  background: url(images/iimg1.jpg);
 }
 
 .r3{
-  background: url(images/img1.jpg);
+  background: url(images/iimg1.jpg);
 }
 
 .rollover:hover{
