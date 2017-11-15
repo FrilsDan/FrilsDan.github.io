@@ -17,6 +17,9 @@ header{
   
 }
 
+html{
+  overflow-x: hidden;
+}
 
 section {
   margin-left: 238px;
@@ -36,16 +39,10 @@ section {
   margin-left: 238px;
 }
 
-#bg1 img{
-  transform: scale(1.25);
-  position: absolute;
-  left: 350px;
-  top: 10px;
-}
 
 .menu {
   background: #474747;
-  position: relative;
+  
   overflow: hidden;
   height: 72px;
   border-radius: 10px;
@@ -77,6 +74,14 @@ section {
   line-height: 40px;
   border-top: 10px solid #FFAE00;
 }
+
+.menu ul li img{
+  transform: scale(1.25);
+  margin-left: -240px;
+  margin-right: 100px;
+  margin-top: 10px;
+}
+
 
   -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
   -o-transition: all 0.3s 0.01s ease;
@@ -357,10 +362,10 @@ button{
   font: 8pt Roboto, sans-serif;
   font-weight: 600;
   color: #ffffff;
-  position: relative;
-  float: left;
-  left: 63%;
-  top: -55px;
+  position: absolute;
+  display: inline-block;
+  margin-left: 180px;
+  margin-top: -50px;
 }
 
 #sp1{
